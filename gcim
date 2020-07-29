@@ -1,0 +1,6 @@
+#! /bin/bash
+echo "add update file to staging"
+echo Write commit Messge ...
+read msg
+git add -u
+git ci -m "$msg"
